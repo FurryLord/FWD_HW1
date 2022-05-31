@@ -1,0 +1,159 @@
+* {
+    font-family: "Comic Sans MS";
+    color: aliceblue;
+}
+
+header {
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.logo {
+    font-style: italic;
+    text-shadow: 4px 4px 5px antiquewhite;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+/* Сhanging some heading styles */
+h1 {
+    margin-block-start: 0em;
+    padding: 5% 5% 5% 5%;
+}
+
+h2 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+h4 {
+    margin: 10% 10% 10% 10%;
+}
+
+/* Buttons for navigation menu */
+.navigation {
+    background-color: #7f55db;
+    border-radius: 20px;
+    margin-top: 2%;
+    word-break: break-word;
+}
+
+/* Containers for main content */
+.textbox1 {
+    background-color: #7f55db;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border-radius: 15px;
+    word-break: break-word;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.contactbox {
+    background-color: #7f55db;
+    padding: 0.5% 5% 1% 5%;
+    border-radius: 15px;
+    width: 30%;
+    word-break: break-word;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.textbox2 {
+    background-color: #7f55db;
+    padding: 1% 5% 1% 5%;
+    border-radius: 15px;
+    width: 70%;
+    word-break: break-word;
+    max-height: 300px;
+    overflow: auto;
+}
+
+/* Line for separating navigation block from main content */
+.wrapper_underline {
+    border-bottom: 2px solid antiquewhite;
+}
+
+.content {
+    margin-left: 4%;
+}
+
+/* Styles for list elements notation */
+
+ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.2rem;
+}
+
+.github {
+    list-style-image: url(github.png);
+}
+
+.outlook {
+    list-style-image: url(outlook.png);
+}
+
+.vk {
+    list-style-image: url(vk.png);
+}
+
+.telegram {
+    list-style-image: url(telegram.png);
+}
+
+/* Some decorators for text */
+
+#underlined {
+    text-decoration: underline;
+}
+
+.wave_underlined {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: aliceblue;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    transition: 1s;
+    display: block;
+}
+
+/* Animation for image (scales it inside container block) */
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.image_container {
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Container for text at top-left angle of image */
+.top-left_image {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: hsla(21, 37%, 15%, 0.2);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/* Animation for links */
+a:hover {
+    color: #53359f;
+}
+
+a:focus {
+    background: #53359f;
+}

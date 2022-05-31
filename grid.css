@@ -1,0 +1,113 @@
+/* My library for creating fluid grid with 12 columns for 1920*1080 display*/
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #53359f;
+}
+/* each column is 130px or 6.77% */
+/* each gutter is 30px ot 1.56%  */
+.col {
+    float: left;
+    margin-left: 1.56%;
+    width: 6.77%;
+}
+/* container for row */
+.row {
+    clear: both;
+}
+/* most right gutter */
+.wrapper {
+    padding-right: 1.56%;
+}
+/* merged columns */
+.col.span2 {
+    width: calc((6.77%*2) + 1.56%);
+}
+
+.col.span3 {
+    width: calc((6.77%*3) + (1.56%*2));
+}
+
+.col.span4 {
+    width: calc((6.77%*4) + (1.56%*3));
+}
+
+.col.span5 {
+    width: calc((6.77%*5) + (1.56%*4));
+}
+
+.col.span6 {
+    width: calc((6.77%*6) + (1.56%*5));
+}
+
+.col.span7 {
+    width: calc((6.77%*7) + (1.56%*6));
+}
+
+.col.span8 {
+    width: calc((6.77%*8) + (1.56%*7));
+}
+
+.col.span9 {
+    width: calc((6.77%*9) + (1.56%*8));
+}
+
+.col.span10 {
+    width: calc((6.77%*10) + (1.56%*9));
+}
+
+.col.span11 {
+    width: calc((6.77%*11) + (1.56%*10));
+}
+
+.col.span12 {
+    width: calc((6.77%*12) + (1.56%*11));
+}
+/* Offsets for separating columns (create "empty" columns) */
+.offset-by-one {
+    margin-left: calc(6.77% + (1.56%*2));
+}
+
+.offset-by-two {
+    margin-left: calc(6.77%*2 + (1.56%*3));
+}
+
+.offset-by-three {
+    margin-left: calc(6.77%*3 + (1.56%*4));
+}
+
+.offset-by-four {
+    margin-left: calc(6.77%*4 + (1.56%*5));
+}
+
+.offset-by-five {
+    margin-left: calc(6.77%*5 + (1.56%*6));
+}
+
+.offset-by-six {
+    margin-left: calc(6.77%*6 + (1.56%*7));
+}
+
+.offset-by-seven {
+    margin-left: calc(6.77%*7 + (1.56%*8));
+}
+
+.offset-by-eight {
+    margin-left: calc(6.77%*8 + (1.56%*9));
+}
+
+.offset-by-nine {
+    margin-left: calc(6.77%*9 + (1.56%*10));
+}
+
+.offset-by-ten {
+    margin-left: calc(6.77%*10 + (1.56%*11));
+}
+
+.offset-by-eleven {
+    margin-left: calc(6.77%*11 + (1.56%*12));
+}
+
+.offset-by-twelve {
+    margin-left: calc(6.77%*12 + (1.56%*13));
+}

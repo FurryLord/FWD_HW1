@@ -1,0 +1,19 @@
+h2{
+    text-align: center;
+}
+li{
+    margin-right: 5%;
+    margin-left: 5%;
+    list-style-type: square;
+}
+
+li li {
+    list-style-type: circle;
+}
+.box {
+    background-color: #7f55db;
+    border-radius: 15px;
+    word-break: break-word;
+    max-height: 500px;
+    overflow: auto;
+}
