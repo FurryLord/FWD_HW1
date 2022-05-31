@@ -1,5 +1,5 @@
 * {
-    font-family: "Comic Sans MS";
+    font-family: "Consolas";
     color: aliceblue;
 }
 
@@ -65,7 +65,7 @@ h4 {
     background-color: #7f55db;
     padding: 1% 5% 1% 5%;
     border-radius: 15px;
-    width: 70%;
+    width: 60%;
     word-break: break-word;
     max-height: 300px;
     overflow: auto;
@@ -156,4 +156,8 @@ a:hover {
 
 a:focus {
     background: #53359f;
+}
+
+.navigation a{
+    text-decoration: none;
 }
