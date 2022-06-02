@@ -83,7 +83,7 @@ h4 {
 /* Styles for list elements notation */
 
 ul {
-    padding-left: 2rem;
+    padding-left: 1rem;
     list-style-type: none;
 }
 
@@ -126,10 +126,26 @@ img {
     display: block;
 }
 
+/* Styles for pictures included in list
+   They are clicable too
+*/
+
+li img {
+    width: 16px;
+    height: 16px;
+    display: inline;
+}
+
+
 /* Animation for image (scales it inside container block) */
 
 img:hover {
     transform: scale(1.2);
+}
+
+ul img:hover {
+    transform: scale(1.4);
+    transition: 0.3s;
 }
 
 .image_container {
@@ -158,6 +174,7 @@ a:focus {
     background: #53359f;
 }
 
-.navigation a{
+.row a {
+    font-family: "Trebuchet MS";
     text-decoration: none;
 }
