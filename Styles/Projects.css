@@ -1,0 +1,13 @@
+h2{
+    text-align: center;
+}
+
+.box {
+    background-color: #7f55db;
+    border-radius: 15px;
+    word-break: break-word;
+    max-height: 700px;
+    padding: 2% 2% 2% 2%;
+    overflow: auto;
+    text-align: center;
+}

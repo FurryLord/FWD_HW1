@@ -1,43 +1,7 @@
-* {
-    font-family: "Consolas";
-    color: aliceblue;
-}
-
-header {
-    text-align: center;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-
-.logo {
-    font-style: italic;
-    text-shadow: 4px 4px 5px antiquewhite;
-    text-align: left;
-    margin-bottom: 1%;
-}
-
 /* Сhanging some heading styles */
-h1 {
-    margin-block-start: 0em;
-    padding: 5% 5% 5% 5%;
-}
-
-h2 {
+.textbox2 h2 {
     margin-block-start: 0em;
     margin-block-end: 0em;
-}
-
-h4 {
-    margin: 10% 10% 10% 10%;
-}
-
-/* Buttons for navigation menu */
-.navigation {
-    background-color: #7f55db;
-    border-radius: 20px;
-    margin-top: 2%;
-    word-break: break-word;
 }
 
 /* Containers for main content */
@@ -49,6 +13,8 @@ h4 {
     word-break: break-word;
     max-height: 300px;
     overflow: auto;
+    margin-block-start: 0em;
+    padding: 5% 5% 5% 5%;
 }
 
 .contactbox {
@@ -71,40 +37,9 @@ h4 {
     overflow: auto;
 }
 
-/* Line for separating navigation block from main content */
-.wrapper_underline {
-    border-bottom: 2px solid antiquewhite;
-}
 
 .content {
     margin-left: 4%;
-}
-
-/* Styles for list elements notation */
-
-ul {
-    padding-left: 1rem;
-    list-style-type: none;
-}
-
-li {
-    font-size: 1.2rem;
-}
-
-.github {
-    list-style-image: url(github.png);
-}
-
-.outlook {
-    list-style-image: url(outlook.png);
-}
-
-.vk {
-    list-style-image: url(vk.png);
-}
-
-.telegram {
-    list-style-image: url(telegram.png);
 }
 
 /* Some decorators for text */
@@ -163,18 +98,4 @@ ul img:hover {
     background: hsla(21, 37%, 15%, 0.2);
     padding-left: 2%;
     padding-right: 2%;
-}
-
-/* Animation for links */
-a:hover {
-    color: #53359f;
-}
-
-a:focus {
-    background: #53359f;
-}
-
-.row a {
-    font-family: "Trebuchet MS";
-    text-decoration: none;
 }

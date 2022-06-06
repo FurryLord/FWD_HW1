@@ -1,0 +1,67 @@
+* {
+    font-family: "Consolas";
+    color: aliceblue;
+}
+
+header {
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.logo {
+    font-style: italic;
+    text-shadow: 4px 4px 5px antiquewhite;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+/* Buttons for navigation menu */
+.navigation {
+    background-color: #7f55db;
+    border-radius: 20px;
+    margin-top: 2%;
+    word-break: break-word;
+}
+
+.navigation h4 {
+    margin: 10% 10% 10% 10%;
+}
+
+/* Line for separating navigation block from main content */
+.wrapper_underline {
+    border-bottom: 2px solid antiquewhite;
+}
+
+/* Styles for list elements notation */
+
+ul {
+    padding-left: 1rem;
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.2rem;
+}
+
+/* Animation for links */
+a:hover {
+    color: #53359f;
+}
+
+a:focus {
+    background: #53359f;
+}
+
+.row a {
+    font-family: "Trebuchet MS";
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    transition: 1s;
+    display: block;
+}
