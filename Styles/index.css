@@ -54,12 +54,6 @@
     color: aliceblue;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    transition: 1s;
-    display: block;
-}
 
 /* Styles for pictures included in list
    They are clicable too
