@@ -1,6 +1,6 @@
 
 export default {
-    input: 'Scripts/RandomFact.js',
+    input: 'Scripts/RandomFact.ts',
     output: {
         file: 'bundle.js',
     },
